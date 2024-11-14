@@ -1,0 +1,77 @@
+div.left-panel-outer-container {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 30px;
+    border-right: 1px solid darkgrey;
+}
+
+div.left-panel-maximized {
+    width: 250px; /* Set the width of the sidebar */
+    overflow-y: auto
+}
+
+div.left-panel-minimized {
+    width: 40px; /* Set the width of the sidebar */
+}
+
+div.left-panel-header {
+    border-bottom: 1px solid gainsboro;
+    padding: 0px 10px 10px 20px;
+}
+
+div.left-panel-header-minimized {
+    border-bottom: 1px solid gainsboro;
+    padding: 0px 10px 10px 8px;
+}
+
+div.left-panel-header-outer {
+    width: 180px;
+    float: left;
+}
+
+span.left-panel-header-text {
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: -0.7vw;
+}
+
+div.left-panel-close-icon {
+
+}
+
+div.left-panel-items-container {
+    padding: 20px 5px 5px 15px;
+}
+
+div.left-panel-item-base {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.02867em;
+    line-height: 1.25;
+    color: black;
+    -webkit-font-smoothing: initial;
+    font-size: 15px;
+}
+
+div.left-panel-item {
+    padding: 7px 5px 10px 0px;
+    cursor: pointer;
+}
+
+div.left-panel-item:hover {
+    font-weight: bold;
+}
+
+div.left-panel-item-group {
+    margin: 5px 5px 0px 0px;
+}
+
+div.left-panel-group-item {
+    padding-bottom: 5px;
+}
