@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Wrapper Styling */
+.wrapper {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 360px;
+    max-width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+/* Heading */
+.wrapper h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #f0f0f0; /* Lighter heading color */
+}
+
+/* Input Box */
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 20px 0;
+    border-radius: 2px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background for inputs */
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+    font-size: 14px;
+    color: #fff;
+    padding: 0 40px 0 15px;
+}
+
+.input-box input::placeholder {
+    color: #e0e0e0; /* Slightly lighter placeholder text */
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #ccc; /* Lighter icon color */
+}
+
+/* Remember me and Forgot password */
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12.5px;
+    margin: -10px 0 10px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 4px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+.wrapper button {
+    width: 100%;
+    height: 40px;
+    background: #f0f0f0; /* Lighter button background */
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(159, 126, 126, 0.1);
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button hover effect */
+.wrapper button:hover {
+    background-color: #d17777;
+    color: #fff;
+}
+
+/* Button focus effect */
+.wrapper button:focus {
+    outline: 2px solid #fff;
+}
+
+/* Input focus effect */
+.input-box input:focus {
+    border: 2px solid #fff;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}

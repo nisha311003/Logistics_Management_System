@@ -1,0 +1,60 @@
+.booking-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .form-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #004080;
+  }
+  
+  .column-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .section-header {
+    font-size: 16px;
+    font-weight: 600;
+    color: #006400;
+    margin-bottom: 8px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .field-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .field-label {
+    width: 35%;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .field-input {
+    width: 65%;
+  }
+  
+  .submit-button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .MuiInputBase-input {
+    font-size: 14px;
+  }
+  
